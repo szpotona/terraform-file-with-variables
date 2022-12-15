@@ -4,7 +4,7 @@ variable "test" {
 
 resource "local_file" "test" {
    content = "${var.test}"
-   filename = "/tmp/foo.bar/"
+   filename = "/tmp/foo.bar"
 
 }
 
